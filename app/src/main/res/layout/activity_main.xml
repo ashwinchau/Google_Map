@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smarttab.google_map.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Current Location" />
+
+        <Button
+            android:id="@+id/btn_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input To location" />
+
+        <Button
+            android:id="@+id/notifcation_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification" />
+
+        <Button
+            android:id="@+id/customDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CostomDailog" />
+
+        <Button
+            android:id="@+id/custom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Navigation" />
+
+        <Button
+            android:id="@+id/JSON"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="JSON USER" />
+    </LinearLayout>
+</RelativeLayout>

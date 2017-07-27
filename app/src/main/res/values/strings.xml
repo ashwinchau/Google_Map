@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Google_Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_input__location">Map</string>
+    <string name="hnt_et_location"></string>
+    <string name="str_btn_find">Find</string>
+    <string name="title_activity_auto_complete_text_view">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Connect</item>
+        <item>Fixtures</item>
+        <item>Table</item>
+    </string-array>
+</resources>
